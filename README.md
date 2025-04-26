@@ -2,7 +2,7 @@
 
 An interactive dashboard for monitoring, reporting, and tracking AI safety incidents.
 
-✨ Features
+##Features
 
 Display and filter incidents by severity (Low, Medium, High)
 Sort incidents by reported date
@@ -12,7 +12,8 @@ Responsive design that works across devices
 
 
 
-🛠️ Tech Stack
+##Tech Stack
+
 Framework: Next.js 13 (App Router)
 Language: TypeScript
 Styling: Tailwind CSS
@@ -21,7 +22,8 @@ Form Handling: React Hook Form with Zod validation
 
 
 
-🚀 Installation
+##Installation
+
 ```bash
 # Install dependencies
 npm install
@@ -29,7 +31,7 @@ npm install
 
 
 
-🔥 Running Locally
+##Running Locally
 
 ```bash
 # Start the development server
@@ -38,7 +40,8 @@ npm run dev
 The app will be available at http://localhost:3000.
 
 
-📁 Project Structure
+##Project Structure
+
 The application follows a modular architecture:
 
 `/app`         - Next.js app router files
@@ -48,7 +51,7 @@ The application follows a modular architecture:
 `/lib`         - Utilities, types, and mock data
 
 
-🎨 Design Decisions
+##Design Decisions
 
 - Used client-side state management since the data is managed locally
 - Implemented responsive grid layouts that adapt to screen sizes
