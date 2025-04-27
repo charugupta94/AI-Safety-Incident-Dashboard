@@ -29,25 +29,25 @@ export const mockIncidents: Incident[] = [
   // and reported_at date.
   {
     id: 4,
-    title: "Autonomous Vehicle Unexpected Behavior",
+    title: "Scarcity of Jobs in the Market",
     description: 
-      "During controlled testing, an autonomous vehicle made an unexpected lane change when presented with an edge case scenario involving unusual road markings. The safety driver intervened before any unsafe situation developed. The incident highlights limitations in the current perception system when dealing with non-standard road conditions.",
+      "The scarcity of jobs in today's market highlights the growing gap between available opportunities and the rising workforce. Rapid technological advancements and economic shifts have intensified competition for limited roles.",
     severity: "Medium",
     reported_at: "2025-03-25T11:45:00Z"
   },
   {
     id: 5,
-    title: "Facial Recognition False Positive",
+    title: "Why is reactjs better than angular",
     description: 
-      "Security system's facial recognition component incorrectly identified an authorized visitor as a person on a watchlist, triggering an unnecessary security response. Investigation revealed the system had particular difficulty distinguishing between individuals of certain ethnic backgrounds, indicating a potential bias in the training dataset.",
-    severity: "Medium",
+      "React.js is often preferred over Angular because it offers a more flexible, component-based architecture, making it easier to build and scale complex user interfaces. Its virtual DOM improves performance, and the learning curve is generally smoother compared to Angular's full-fledged framework approach.",
+    severity: "Low",
     reported_at: "2025-04-05T16:20:00Z"
   },
   {
     id: 6,
-    title: "Critical Infrastructure AI Failure",
+    title: "Impact of AI on Job Market",
     description: 
-      "AI monitoring system for power grid optimization experienced a complete failure during a period of high demand, requiring emergency manual override. The system had been running autonomously for 6 months before this incident. Post-failure analysis indicated the AI had not been trained on the specific combination of conditions that occurred. This resulted in a 15-minute power fluctuation affecting approximately 10,000 customers.",
+      "The impact of AI on the job market is profound, with automation and machine learning reshaping industries. While AI creates new job opportunities, it also displaces certain roles, necessitating workforce reskilling and adaptation to new technologies.",
     severity: "High",
     reported_at: "2025-04-10T08:00:00Z"
   }
